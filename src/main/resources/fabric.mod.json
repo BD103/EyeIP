@@ -3,12 +3,11 @@
 	"id": "eyeip",
 	"version": "${version}",
 	"name": "EyeIP",
-	"description": "This is an example description! Tell everyone what your mod is about!",
-	"authors": [
-		"BD103"
-	],
+	"description": "View the IP address of the server you're connected to.",
+	"authors": ["BD103"],
 	"contact": {
 		"homepage": "https://bd103.github.io",
+		"issues": "https://github.com/BD103/EyeIP/issues",
 		"sources": "https://github.com/BD103/EyeIP"
 	},
 	"license": "MIT",

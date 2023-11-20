@@ -12,6 +12,7 @@ import java.util.List;
 
 @Mixin(DebugHud.class)
 public abstract class DebugHudMixin {
+    // Display IP address on F3 screen
     @Inject(
             method = "drawLeftText",
             at = @At(

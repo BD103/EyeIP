@@ -8,6 +8,8 @@ import java.net.SocketAddress;
 
 public class EyeIP implements ClientModInitializer {
     public static final Logger LOGGER = LoggerFactory.getLogger("eyeip");
+
+    // The address of the server the client is currently connected to.
     public static SocketAddress currentAddress = null;
 
     @Override

@@ -15,6 +15,7 @@ import java.util.function.Supplier;
 
 @Mixin(ClientWorld.class)
 public abstract class ClientWorldMixin {
+    // Update current address when connecting to a new world
     @Inject(method = "<init>", at = @At("RETURN"))
     private void constructor(
             ClientPlayNetworkHandler networkHandler,
