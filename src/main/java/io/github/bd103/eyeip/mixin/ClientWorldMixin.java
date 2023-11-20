@@ -31,8 +31,8 @@ public abstract class ClientWorldMixin {
     ) {
         SocketAddress newAddress = networkHandler.getConnection().getAddress();
 
-        EyeIP.INSTANCE.getLogger().debug("Setting EyeIP address to: " + newAddress);
+        EyeIP.LOGGER.debug("Setting EyeIP address to: " + newAddress);
 
-        EyeIP.INSTANCE.setCurrentAddress(newAddress);
+        EyeIP.currentAddress = newAddress;
     }
 }

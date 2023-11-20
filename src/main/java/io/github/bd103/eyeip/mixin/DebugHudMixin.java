@@ -23,6 +23,6 @@ public abstract class DebugHudMixin {
             locals = LocalCapture.CAPTURE_FAILHARD
     )
     private void drawLeftText(DrawContext context, CallbackInfo ci, List<String> list) {
-        list.add("[EyeIP] Current address: " + EyeIP.INSTANCE.getCurrentAddress());
+        list.add("[EyeIP] Address: " + EyeIP.currentAddress);
     }
 }

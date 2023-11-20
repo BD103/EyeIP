@@ -16,10 +16,7 @@
 	"environment": "client",
 	"entrypoints": {
 		"client": [
-			{
-				"value": "io.github.bd103.eyeip.EyeIP",
-				"adapter": "kotlin"
-			}
+			"io.github.bd103.eyeip.EyeIP"
 		]
 	},
 	"mixins": [
