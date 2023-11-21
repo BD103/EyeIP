@@ -1,5 +1,7 @@
 # EyeIP
 
+[![Modrinth](https://img.shields.io/badge/Modrinth-gray?logo=modrinth) ![Mod Version](https://img.shields.io/modrinth/v/4ajskJKt) ![Game Version](https://img.shields.io/modrinth/game-versions/4ajskJKt)](https://modrinth.com/mod/eyeip)
+
 EyeIP is a [Fabric](https://fabricmc.net) mod that displays the IP address of the server you're connected to the F3 debug screen.
 
 It targets Minecraft 1.20.2 and has no dependencies. It is automatically enabled when loaded. You can find the server's IP address by pressing `F3` in game and finding the text on the left that says `[EyeIP]`.
